@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                            7 January 2022
+Internet-Draft                                           21 January 2022
 Intended status: Best Current Practice                                  
-Expires: 11 July 2022
+Expires: 25 July 2022
 
 
                        Scheduling Online Meetings
@@ -43,7 +43,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 July 2022.
+   This Internet-Draft will expire on 25 July 2022.
 
 Copyright Notice
 
@@ -70,28 +70,28 @@ Table of Contents
      3.1.  Gather Information
      3.2.  Find the Best Solution (if possible)
      3.3.  Find an Equitable Solution
-       3.3.1.  Poll from the Least Privileged Perspective
-       3.3.2.  Equalize the Pain
-       3.3.3.  Rotate the Pain
+       3.3.1.  Method I: Poll from the Least Privileged Perspective
+       3.3.2.  Method II: Equalize the Pain
+       3.3.3.  Method III: Rotate the Pain
      3.4.  Regularly Confirm
    4.  Normative References
    Author's Address
 
 1.  Introduction
 
-   The Internet has made it possible for many people to meet
-   synchronously online, no matter where they are, so long as they have
-   suitable connectivity.  Online meetings thus enable collaboration
-   without travel, empowering those who cannot attend an in-person
-   meeting, either because they do not have the means, or because
-   external circumstances (like a global pandemic) prevents it.
+   The Internet has made it possible for people to meet synchronously
+   online, no matter where they are (so long as they have suitable
+   connectivity).  Online meetings thus enable collaboration without
+   travel, empowering those who cannot attend an in-person meeting,
+   either because they do not have the means, or because external
+   circumstances (like a global pandemic) prevents it.
 
-   However, the ease with which a meeting can be scheduled belies the
-   difficulties that can be encountered when attempting to include a
-   broad selection of people with different commitments, timezones, and
-   expectations.  Successfully scheduling an online meeting often
-   requires a delicate balance between accommodating a large set of
-   constraints with the need to make progress.
+   However, the ease with which an online meeting can be scheduled
+   belies the difficulties that can be encountered when attempting to
+   include a broad selection of people with different commitments,
+   timezones, and expectations.  Successfully scheduling an online
+   meeting often requires a delicate balance between accommodating a
+   large set of constraints with the need to make progress.
 
    This document recommends best practices when scheduling online
    meetings.  It does not address the many other issues encountered in
@@ -106,7 +106,7 @@ Table of Contents
 2.1.  Reasons for Meeting
 
    There are many reasons to hold an online meeting, and often the type
-   of meeting has an impact on scheduling considerations.
+   of meeting has an impact on scheduling.
 
    For example, a meeting might be scheduled to make a specific
    decision, and thus it's important that all stakeholders have equal
@@ -166,11 +166,13 @@ Table of Contents
    person might consider having to commute to an office or shift another
    meeting or meal as inconvenient, whereas another might have a
    commitment to collect a child from school or provide care to a family
-   member that is difficult (if not impossible) to change.  Likewise,
-   there is a significant difference between the mild annoyance of
-   joining a meeting outside of business hours and disrupting someone's
-   circadian rhythm -- potentially affecting more than one day of their
-   life as they readjust -- to join one at 3am.
+   member that is difficult (if not impossible) to change.
+
+   Likewise, there is a significant difference between the mild
+   annoyance of joining a meeting outside of business hours (for
+   example, at 6pm local time) and disrupting someone's circadian rhythm
+   -- potentially affecting more than one day of their life as they
+   readjust -- to join one at 3am.
 
    Successful meeting scheduling will take the nature of conflicts into
    account, heavily discounting participants' mere inconvenience and
@@ -223,22 +225,21 @@ Table of Contents
    the next step.
 
    Otherwise, choose a candidate while conforming as much as possible to
-   any participants' stated preferences, announcing it to the list for
-   confirmation.
+   any participants' stated preferences, announcing it for confirmation.
 
 3.3.  Find an Equitable Solution
 
    If it isn't possible to find a time that meets all of the relevant
-   constraints, a compromise solution needs to be come to.  In doing so,
-   the considerations above can be incorporated by using one of the
+   constraints, a compromise needs to be found.  In doing so, the
+   considerations above can be incorporated by using one of the
    following methods.
 
-3.3.1.  Poll from the Least Privileged Perspective
+3.3.1.  Method I: Poll from the Least Privileged Perspective
 
    A poll can be used to select a time for the meeting.  In doing so, it
    is important to consider the dynamics of group behaviour, because a
-   large number of people who have similar needs are likely to overwhelm
-   the needs of a minority in a disproportionate fashion.
+   large number of people who have similar preferences are likely to
+   overwhelm the needs of a minority.
 
    For example, if ten participants are all in the US/Pacific timezone,
    three are in UK/London, and one is in Japan/Tokyo, a poll that has
@@ -256,9 +257,9 @@ Table of Contents
    This option works best when participants are in somewhat compatible
    timezones; if it is not possible to prevent a participant from being
    inconvenienced by a truly unreasonable meeting time, the following
-   options may be more appropriate.
+   methods may be more appropriate.
 
-3.3.2.  Equalize the Pain
+3.3.2.  Method II: Equalize the Pain
 
    Alternatively, the information gathered can be used to calculate the
    'least painful' time to hold the meeting, by assigning a 'pain value'
@@ -279,7 +280,7 @@ Table of Contents
    an unreasonable time.  If it is an ongoing series of meetings, it
    might be combined with the next option.
 
-3.3.3.  Rotate the Pain
+3.3.3.  Method III: Rotate the Pain
 
    When avoiding conflicts is impossible -- for example, because a truly
    global pool of participants is needed -- it is more appropriate to

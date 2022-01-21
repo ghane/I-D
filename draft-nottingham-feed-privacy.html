@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta content="Common,Latin" name="scripts">
 <meta content="initial-scale=1.0" name="viewport">
-<title>Clarifying IETF Document Status</title>
+<title>Privacy Considerations for Web Feeds</title>
 <meta content="Mark Nottingham" name="author">
 <meta content="
-       There is widespread confusion about the status of Internet-Drafts and RFCs, especially regarding their association with the IETF and other streams. This document recommends several interventions to more closely align reader perceptions with actual document status. 
+       TBD 
     " name="description">
 <meta content="xml2rfc 3.12.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
-<meta content="draft-nottingham-where-does-that-come-from" name="ietf.draft">
+<meta content="draft-nottingham-feed-privacy" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.12.0
     Python 3.9.7
@@ -30,7 +30,7 @@
     setuptools 52.0.0
     six 1.16.0
 -->
-<link href="draft-nottingham-where-does-that-come-from.xml" rel="alternate" type="application/rfc+xml">
+<link href="draft-nottingham-feed-privacy.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
 <style type="text/css">@font-face {
   font-family: 'Lora';
@@ -1011,12 +1011,12 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 <table class="ears">
 <thead><tr>
 <td class="left">Internet-Draft</td>
-<td class="center">Clarifying IETF Document Status</td>
+<td class="center">Feed Privacy</td>
 <td class="right">January 2022</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Nottingham</td>
-<td class="center">Expires 11 July 2022</td>
+<td class="center">Expires 25 July 2022</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1026,15 +1026,15 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 <dt class="label-workgroup">Workgroup:</dt>
 <dd class="workgroup">Network Working Group</dd>
 <dt class="label-internet-draft">Internet-Draft:</dt>
-<dd class="internet-draft">draft-nottingham-where-does-that-come-from</dd>
+<dd class="internet-draft">draft-nottingham-feed-privacy</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2022-01-07" class="published">7 January 2022</time>
+<time datetime="2022-01-21" class="published">21 January 2022</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
-<dd class="intended-status">Informational</dd>
+<dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2022-07-11">11 July 2022</time></dd>
+<dd class="expires"><time datetime="2022-07-25">25 July 2022</time></dd>
 <dt class="label-authors">Author:</dt>
 <dd class="authors">
 <div class="author">
@@ -1043,10 +1043,10 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 </dd>
 </dl>
 </div>
-<h1 id="title">Clarifying IETF Document Status</h1>
+<h1 id="title">Privacy Considerations for Web Feeds</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">There is widespread confusion about the status of Internet-Drafts and RFCs, especially regarding their association with the IETF and other streams. This document recommends several interventions to more closely align reader perceptions with actual document status.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-1"><em>TBD</em><a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1054,11 +1054,11 @@ svg [stroke="fill"], svg [fill^="#fff"] {
       </h2>
 <p id="section-note.1-1">This note is to be removed before publishing as an RFC.<a href="#section-note.1-1" class="pilcrow">¶</a></p>
 <p id="section-note.1-2">
-        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-nottingham-where-does-that-come/">https://datatracker.ietf.org/doc/draft-nottingham-where-does-that-come/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
+        Status information for this document may be found at <span><a href="https://datatracker.ietf.org/doc/draft-nottingham-feed/">https://datatracker.ietf.org/doc/draft-nottingham-feed/</a></span>.<a href="#section-note.1-2" class="pilcrow">¶</a></p>
 <p id="section-note.1-3">
-         information can be found at <span><a href="https://mnot.github.io/I-D/">https://mnot.github.io/I-D/</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
+         information can be found at <span><a href="https://mnot.github.io/feed-privacy/">https://mnot.github.io/feed-privacy/</a></span>.<a href="#section-note.1-3" class="pilcrow">¶</a></p>
 <p id="section-note.1-4">Source for this draft and an issue tracker can be found at
-        <span><a href="https://github.com/mnot/I-D/labels/where-does-that-come-from">https://github.com/mnot/I-D/labels/where-does-that-come-from</a></span>.<a href="#section-note.1-4" class="pilcrow">¶</a></p>
+        <span><a href="https://github.com/mnot/feed-privacy">https://github.com/mnot/feed-privacy</a></span>.<a href="#section-note.1-4" class="pilcrow">¶</a></p>
 </section>
 <div id="status-of-memo">
 <section id="section-boilerplate.1">
@@ -1079,7 +1079,7 @@ svg [stroke="fill"], svg [fill^="#fff"] {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 11 July 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 25 July 2022.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1117,40 +1117,7 @@ svg [stroke="fill"], svg [fill^="#fff"] {
             </ul>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2">
-            <p id="section-toc.1-1.2.1"><a href="#section-2" class="xref">2</a>.  <a href="#name-recommendations" class="xref">Recommendations</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.1">
-                <p id="section-toc.1-1.2.2.1.1"><a href="#section-2.1" class="xref">2.1</a>.  <a href="#name-rfcs" class="xref">RFCs</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.1.2.1">
-                    <p id="section-toc.1-1.2.2.1.2.1.1" class="keepWithNext"><a href="#section-2.1.1" class="xref">2.1.1</a>.  <a href="#name-proposal-1-logo-usage" class="xref">Proposal 1: logo usage</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.1.2.2">
-                    <p id="section-toc.1-1.2.2.1.2.2.1"><a href="#section-2.1.2" class="xref">2.1.2</a>.  <a href="#name-proposal-2-visual-distincti" class="xref">Proposal 2: visual distinction</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.1.2.3">
-                    <p id="section-toc.1-1.2.2.1.2.3.1"><a href="#section-2.1.3" class="xref">2.1.3</a>.  <a href="#name-proposal-3-domain-usage" class="xref">Proposal 3: domain usage</a></p>
-</li>
-                </ul>
-</li>
-              <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2">
-                <p id="section-toc.1-1.2.2.2.1"><a href="#section-2.2" class="xref">2.2</a>.  <a href="#name-internet-drafts" class="xref">Internet-Drafts</a></p>
-<ul class="compact toc ulBare ulEmpty">
-<li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2.2.1">
-                    <p id="section-toc.1-1.2.2.2.2.1.1"><a href="#section-2.2.1" class="xref">2.2.1</a>.  <a href="#name-proposal-4-logo-usage" class="xref">Proposal 4: logo usage</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2.2.2">
-                    <p id="section-toc.1-1.2.2.2.2.2.1"><a href="#section-2.2.2" class="xref">2.2.2</a>.  <a href="#name-proposal-5-visual-distincti" class="xref">Proposal 5: visual distinction</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2.2.3">
-                    <p id="section-toc.1-1.2.2.2.2.3.1"><a href="#section-2.2.3" class="xref">2.2.3</a>.  <a href="#name-proposal-6-domain-usage" class="xref">Proposal 6: domain usage</a></p>
-</li>
-                  <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.2.2.2.2.4">
-                    <p id="section-toc.1-1.2.2.2.2.4.1"><a href="#section-2.2.4" class="xref">2.2.4</a>.  <a href="#name-proposal-7-boilerplate" class="xref">Proposal 7: boilerplate</a></p>
-</li>
-                </ul>
-</li>
-            </ul>
+            <p id="section-toc.1-1.2.1" class="keepWithNext"><a href="#section-2" class="xref">2</a>.  <a href="#name-iana-considerations" class="xref">IANA Considerations</a></p>
 </li>
           <li class="compact toc ulBare ulEmpty" id="section-toc.1-1.3">
             <p id="section-toc.1-1.3.1"><a href="#section-3" class="xref">3</a>.  <a href="#name-security-considerations" class="xref">Security Considerations</a></p>
@@ -1170,12 +1137,7 @@ svg [stroke="fill"], svg [fill^="#fff"] {
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">There is widespread confusion about the status of Internet-Drafts and RFCs -- specifically, regarding their association with the IETF and other streams. It is commonly perceived that all RFCs and all Internet-Drafts are associated with and approved by the IETF.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">This is likely due to the conflation of the IETF and RFC brands; most people think of them in close association, and do not appreciate the concept of streams, because it is not surfaced obviously in the documents. These impressions are reinforced by our reuse of IETF infrastructure for publishing and managing drafts on other streams, as well as drafts on no stream.<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">These observations are not new. In the past, changes to boilerplate have been proposed and implemented to distinguish document status. However, the current boilerplate is obscure; it requires a knowledge of the Internet Standards Process to interpret, and furthermore, many readers gloss over boilerplate language.<a href="#section-1-3" class="pilcrow">¶</a></p>
-<p id="section-1-4">This problem is also important to solve. Beyond confusion in the press and by implementers, standards-based interoperability is increasingly being considered by competition regulators as a remedy to abuse of power in Internet-related markets. Consensus status and stream association is critical to their interpretation of a given specification.<a href="#section-1-4" class="pilcrow">¶</a></p>
-<p id="section-1-5">Additionally, the still in-progress change to the v3 format for Internet-Drafts and RFCs affords an opportunity to adjust how these documents are rendered in a manner that leads to more appropriate perceptions about their status.<a href="#section-1-5" class="pilcrow">¶</a></p>
-<p id="section-1-6">Therefore, <a href="#recs" class="xref">Section 2</a> contains several recommendations for strong, clear interventions along these lines.<a href="#section-1-6" class="pilcrow">¶</a></p>
+<p id="section-1-1"><em>TBD</em><a href="#section-1-1" class="pilcrow">¶</a></p>
 <div id="notational-conventions">
 <section id="section-1.1">
         <h3 id="name-notational-conventions">
@@ -1185,157 +1147,42 @@ svg [stroke="fill"], svg [fill^="#fff"] {
 "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as
 described in BCP 14 <span>[<a href="#RFC2119" class="xref">RFC2119</a>]</span> <span>[<a href="#RFC8174" class="xref">RFC8174</a>]</span> when, and only when, they appear in all capitals, as
 shown here.<a href="#section-1.1-1" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-1.1-2.1">Feed URL<a href="#section-1.1-2.1" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.2">Encryption<a href="#section-1.1-2.2" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.3">Request Headers<a href="#section-1.1-2.3" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.4">Cookies<a href="#section-1.1-2.4" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.5">ETags<a href="#section-1.1-2.5" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.6">Content Negotiation<a href="#section-1.1-2.6" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.7">User-Agent<a href="#section-1.1-2.7" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.8">Authentication<a href="#section-1.1-2.8" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.9">Content<a href="#section-1.1-2.9" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.10">Scripts<a href="#section-1.1-2.10" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.11">Remote Resources<a href="#section-1.1-2.11" class="pilcrow">¶</a>
+</li>
+          <li class="normal" id="section-1.1-2.12">Reporting<a href="#section-1.1-2.12" class="pilcrow">¶</a>
+</li>
+        </ul>
 </section>
 </div>
 </section>
 </div>
-<div id="recs">
+<div id="iana-considerations">
 <section id="section-2">
-      <h2 id="name-recommendations">
-<a href="#section-2" class="section-number selfRef">2. </a><a href="#name-recommendations" class="section-name selfRef">Recommendations</a>
+      <h2 id="name-iana-considerations">
+<a href="#section-2" class="section-number selfRef">2. </a><a href="#name-iana-considerations" class="section-name selfRef">IANA Considerations</a>
       </h2>
-<div id="rfcs">
-<section id="section-2.1">
-        <h3 id="name-rfcs">
-<a href="#section-2.1" class="section-number selfRef">2.1. </a><a href="#name-rfcs" class="section-name selfRef">RFCs</a>
-        </h3>
-<p id="section-2.1-1">The following recommendations apply to the publication of RFCs.<a href="#section-2.1-1" class="pilcrow">¶</a></p>
-<div id="proposal-1-logo-usage">
-<section id="section-2.1.1">
-          <h4 id="name-proposal-1-logo-usage">
-<a href="#section-2.1.1" class="section-number selfRef">2.1.1. </a><a href="#name-proposal-1-logo-usage" class="section-name selfRef">Proposal 1: logo usage</a>
-          </h4>
-<p id="section-2.1.1-1">The purpose of this proposal is to create a strong, clear link between document status and logo usage.<a href="#section-2.1.1-1" class="pilcrow">¶</a></p>
-<p id="section-2.1.1-2">The IETF, IRTF and IAB stream managers MUST ask the RFC Editor to place their respective logos on HTML, HTMLized and PDF renderings of RFCs on the applicable stream, and only on those documents. The logo should be displayed prominently at the top of the document.<a href="#section-2.1.1-2" class="pilcrow">¶</a></p>
-<p id="section-2.1.1-3">The Independent Submissions Editor MAY designate a logo for equivalent use.<a href="#section-2.1.1-3" class="pilcrow">¶</a></p>
-<p id="section-2.1.1-4">The tools team is directed to honour these requests in any renderings of these RFCs on sites under their control. This includes the negative condition; i.e., IETF, IRTF, and IAB logos should not appear on or in association with RFCs on other streams.<a href="#section-2.1.1-4" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="proposal-2-visual-distinction">
-<section id="section-2.1.2">
-          <h4 id="name-proposal-2-visual-distincti">
-<a href="#section-2.1.2" class="section-number selfRef">2.1.2. </a><a href="#name-proposal-2-visual-distincti" class="section-name selfRef">Proposal 2: visual distinction</a>
-          </h4>
-<p id="section-2.1.2-1">The purpose of this proposal is to create a strong, clear link between document status and document presentation.<a href="#section-2.1.2-1" class="pilcrow">¶</a></p>
-<p id="section-2.1.2-2">The RFC Editor is directed to propose stream-specific presentation of RFCs that vary in visually significant ways; e.g., use of typeface, decoration, formatting such as alignment and spacing, and other typographic controls.<a href="#section-2.1.2-2" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="proposal-3-domain-usage">
-<section id="section-2.1.3">
-          <h4 id="name-proposal-3-domain-usage">
-<a href="#section-2.1.3" class="section-number selfRef">2.1.3. </a><a href="#name-proposal-3-domain-usage" class="section-name selfRef">Proposal 3: domain usage</a>
-          </h4>
-<p id="section-2.1.3-1">The purpose of this proposal is to create a strong, clear link between document status and the domain name(s) where the document is found.<a href="#section-2.1.3-1" class="pilcrow">¶</a></p>
-<p id="section-2.1.3-2">The IETF, IRTF and IAB stream managers SHOULD designate what hostname(s) RFCs from their streams are to be available upon. Initially, this is likely to be datatracker.ietf.org, although stream managers might designate a more specific place (such as specs.irtf.org) instead of or in addition to that location.<a href="#section-2.1.3-2" class="pilcrow">¶</a></p>
-<p id="section-2.1.3-3">The Independent Submission Editor SHOULD designate what hostname(s) RFCs from their stream are to be available upon, if any. Independent Submissions MUST NOT be designated to appear on ietf.org, irtf.org or iab.org hostnames.<a href="#section-2.1.3-3" class="pilcrow">¶</a></p>
-<p id="section-2.1.3-4">The tools team is directed to assure that these instructions are carried out - in particular, that each stream's RFCs appear only on the designated hostnames (within the scope of hostnames that the tools team has access to), and RFCs from other streams do not appear on the designated hostnames.<a href="#section-2.1.3-4" class="pilcrow">¶</a></p>
-<p id="section-2.1.3-5">Note that placeholder documents MAY be used to indicate where a document on another stream can be found, while clearly stating that the target document is not associated with the stream in question; however, automatic redirects MUST NOT be used.<a href="#section-2.1.3-5" class="pilcrow">¶</a></p>
-<p id="section-2.1.3-6">Note that if a stream manager does not indicate any domains for such use, it implies that those RFCs will only appear on rfc-editor.org, not any tools team-controlled sites.<a href="#section-2.1.3-6" class="pilcrow">¶</a></p>
-</section>
-</div>
-</section>
-</div>
-<div id="internet-drafts">
-<section id="section-2.2">
-        <h3 id="name-internet-drafts">
-<a href="#section-2.2" class="section-number selfRef">2.2. </a><a href="#name-internet-drafts" class="section-name selfRef">Internet-Drafts</a>
-        </h3>
-<p id="section-2.2-1">The following recommendations apply to the publication of Internet-Drafts.<a href="#section-2.2-1" class="pilcrow">¶</a></p>
-<div id="proposal-4-logo-usage">
-<section id="section-2.2.1">
-          <h4 id="name-proposal-4-logo-usage">
-<a href="#section-2.2.1" class="section-number selfRef">2.2.1. </a><a href="#name-proposal-4-logo-usage" class="section-name selfRef">Proposal 4: logo usage</a>
-          </h4>
-<p id="section-2.2.1-1">The purpose of this proposal is to create a strong, clear link between document status and logo usage.<a href="#section-2.2.1-1" class="pilcrow">¶</a></p>
-<p id="section-2.2.1-2">The tools team is directed to display the logos of the IETF, IRTF and IAB prominently at the top of HTML, HTMLized, and PDF renderings of Internet-Drafts on those streams (using the appropriate logo), and only drafts on those streams. These logos should not appear anywhere on documents that are not on these streams, nor should the appear on pages associated with them (e.g., datatracker metadata).<a href="#section-2.2.1-2" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="proposal-5-visual-distinction">
-<section id="section-2.2.2">
-          <h4 id="name-proposal-5-visual-distincti">
-<a href="#section-2.2.2" class="section-number selfRef">2.2.2. </a><a href="#name-proposal-5-visual-distincti" class="section-name selfRef">Proposal 5: visual distinction</a>
-          </h4>
-<p id="section-2.2.2-1">The purpose of this proposal is to create a strong, clear link between document status and document presentation.<a href="#section-2.2.2-1" class="pilcrow">¶</a></p>
-<p id="section-2.2.2-2">The tools team is directed to propose stream-specific presentation of Internet-Drafts that vary in visually significant ways; e.g., use of typeface, decoration (e.g., 'DRAFT' background images), formatting such as alignment and spacing, and other typographic controls.<a href="#section-2.2.2-2" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="proposal-6-domain-usage">
-<section id="section-2.2.3">
-          <h4 id="name-proposal-6-domain-usage">
-<a href="#section-2.2.3" class="section-number selfRef">2.2.3. </a><a href="#name-proposal-6-domain-usage" class="section-name selfRef">Proposal 6: domain usage</a>
-          </h4>
-<p id="section-2.2.3-1">The purpose of this proposal is to create a strong, clear link between document status and the domain name(s) where the document (and metadata about it) is found.<a href="#section-2.2.3-1" class="pilcrow">¶</a></p>
-<p id="section-2.2.3-2">The tools team is directed to request control of the 'internet-drafts.org' domain name from ISOC (with assistance from the LLC), and to use this domain for publishing drafts not associated with a stream, along with any other material generic to Internet-Drafts (such as the master index of drafts). Drafts on a given stream MAY be published there with consent from that stream's manager.<a href="#section-2.2.3-2" class="pilcrow">¶</a></p>
-<p id="section-2.2.3-3">The IETF, IRTF and IAB stream managers MAY designate what hostname(s) Internet-Drafts on their streams are to be available upon. Initially, this is likely to be datatracker.ietf.org, although stream managers might designate a more specific place (such as drafts.irtf.org) instead of or in addition to that location.<a href="#section-2.2.3-3" class="pilcrow">¶</a></p>
-<p id="section-2.2.3-4">The Independent Submission Editor MAY designate a hostname that Internet-Drafts from their stream are to be available upon. Independent Submissions MUST NOT be designated to appear on ietf.org, irtf.org or iab.org hostnames.<a href="#section-2.2.3-4" class="pilcrow">¶</a></p>
-<p id="section-2.2.3-5">The tools team is directed to assure that these instructions are carried out - in particular, that each stream's drafts appear only on the designated hostnames (within the scope of hostnames that the tools team has access to), and drafts from other streams do not appear on the designated hostnames.<a href="#section-2.2.3-5" class="pilcrow">¶</a></p>
-<p id="section-2.2.3-6">Note that placeholder documents MAY be used to indicate where a document on another stream can be found (including on internet-drafts.org), while clearly stating that the target document is not associated with the stream in question; however, automatic redirects MUST NOT be used.<a href="#section-2.2.3-6" class="pilcrow">¶</a></p>
-</section>
-</div>
-<div id="proposal-7-boilerplate">
-<section id="section-2.2.4">
-          <h4 id="name-proposal-7-boilerplate">
-<a href="#section-2.2.4" class="section-number selfRef">2.2.4. </a><a href="#name-proposal-7-boilerplate" class="section-name selfRef">Proposal 7: boilerplate</a>
-          </h4>
-<p id="section-2.2.4-1">The purpose of this proposal is to create a strong, clear statement of the document's actual
-association (or lack thereof) with a stream in its boilerplate.<a href="#section-2.2.4-1" class="pilcrow">¶</a></p>
-<p id="section-2.2.4-2">The tools team is directed to modify this text in the Internet-Draft boilerplate:<a href="#section-2.2.4-2" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-3">
-<pre>
-Internet-Drafts are working documents of the Internet Engineering
-Task Force (IETF).  Note that other groups may also distribute
-working documents as Internet-Drafts.  The list of current Internet-
-Drafts is at https://datatracker.ietf.org/drafts/current/.
-</pre><a href="#section-2.2.4-3" class="pilcrow">¶</a>
-</div>
-<p id="section-2.2.4-4">to, in the case of IETF stream documents:<a href="#section-2.2.4-4" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-5">
-<pre>
-This Internet-Draft is a working document of the Internet Engineering
-Task Force (IETF). Note that other parties are able to distribute
-working documents as Internet-Drafts.  The list of current Internet-
-Drafts is at https://internet-drafts.org/drafts/current/.
-</pre><a href="#section-2.2.4-5" class="pilcrow">¶</a>
-</div>
-<p id="section-2.2.4-6">in the case of IRTF stream documents:<a href="#section-2.2.4-6" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-7">
-<pre>
-This Internet-Draft is a working document of the Internet Research
-Task Force (IRTF). Note that other parties are able to distribute
-working documents as Internet-Drafts.  The list of current Internet-
-Drafts is at https://internet-drafts.org/drafts/current/.
-</pre><a href="#section-2.2.4-7" class="pilcrow">¶</a>
-</div>
-<p id="section-2.2.4-8">in the case of IAB stream documents:<a href="#section-2.2.4-8" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-9">
-<pre>
-This Internet-Draft is a working document of the Internet Architecture
-Board (IAB). Note that other parties are able to distribute
-working documents as Internet-Drafts.  The list of current Internet-
-Drafts is at https://internet-drafts.org/drafts/current/.
-</pre><a href="#section-2.2.4-9" class="pilcrow">¶</a>
-</div>
-<p id="section-2.2.4-10">in the case of Independent stream documents:<a href="#section-2.2.4-10" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-11">
-<pre>
-This Internet-Draft is an Independent Submission for publication in the
-RFC Series. Note that other parties are able to distribute
-working documents as Internet-Drafts.  The list of current Internet-
-Drafts is at https://internet-drafts.org/drafts/current/.
-</pre><a href="#section-2.2.4-11" class="pilcrow">¶</a>
-</div>
-<p id="section-2.2.4-12">in the case of documents not associated with a stream:<a href="#section-2.2.4-12" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-2.2.4-13">
-<pre>
-This Internet-Draft is a working document that has not been adopted
-by any stream that would lead to RFC publication. The list of current
-Internet-Drafts is at https://internet-drafts.org/drafts/current/.
-</pre><a href="#section-2.2.4-13" class="pilcrow">¶</a>
-</div>
-</section>
-</div>
-</section>
-</div>
+<p id="section-2-1"><em>TBD</em><a href="#section-2-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
@@ -1343,7 +1190,7 @@ Internet-Drafts is at https://internet-drafts.org/drafts/current/.
       <h2 id="name-security-considerations">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-security-considerations" class="section-name selfRef">Security Considerations</a>
       </h2>
-<p id="section-3-1">This document has no direct security impact.<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-1"><em>TBD</em><a href="#section-3-1" class="pilcrow">¶</a></p>
 </section>
 </div>
 <section id="section-4">
@@ -1368,8 +1215,7 @@ Internet-Drafts is at https://internet-drafts.org/drafts/current/.
       </h2>
 <address class="vcard">
         <div dir="auto" class="left"><span class="fn nameRole">Mark Nottingham</span></div>
-<div dir="auto" class="left">
-<span class="locality">Prahran</span> <span class="region">VIC</span> </div>
+<div dir="auto" class="left"><span class="street-address">Prahran</span></div>
 <div dir="auto" class="left"><span class="country-name">Australia</span></div>
 <div class="email">
 <span>Email:</span>

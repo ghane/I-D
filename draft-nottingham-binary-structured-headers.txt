@@ -3,9 +3,9 @@
 
 
 Network Working Group                                      M. Nottingham
-Internet-Draft                                            7 January 2022
+Internet-Draft                                           21 January 2022
 Intended status: Standards Track                                        
-Expires: 11 July 2022
+Expires: 25 July 2022
 
 
                   Binary Structured HTTP Field Values
@@ -44,7 +44,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 July 2022.
+   This Internet-Draft will expire on 25 July 2022.
 
 Copyright Notice
 
@@ -485,9 +485,9 @@ Table of Contents
 
    [RETROFIT] Nottingham, M., "Retrofit Structured Fields for HTTP",
               Work in Progress, Internet-Draft, draft-nottingham-http-
-              structure-retrofit-01, 6 January 2022,
+              structure-retrofit-02, 6 January 2022,
               <https://datatracker.ietf.org/doc/html/draft-nottingham-
-              http-structure-retrofit-01>.
+              http-structure-retrofit-02>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
